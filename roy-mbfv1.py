@@ -40,9 +40,9 @@ def hasil(ngocok,ismylife):
 yeahh=random.choice(["RONI WIJAYA","RONI WIJAYA"])
 def logo():
 	os.system("clear")
-	print(f""" ╦═╗╔═╗╦ ╦   ╔╦╗╔╗ ╔═╗╦  ╦
- ╠╦╝║ ║╚╦╝───║║║╠╩╗╠╣ ╚╗╔╝
- ╩╚═╚═╝ ╩    ╩ ╩╚═╝╚   ╚╝ 
+	print(f""" ╦═╗╔═╗╦ ╦   ╔╦╗╔╗ ╔═╗
+ ╠╦╝║ ║╚╦╝───║║║╠╩╗╠╣ 
+ ╩╚═╚═╝ ╩    ╩ ╩╚═╝╚  
     -=[ Create By {yeahh} ]=-""")
 class about:
 	def __init__(self,url):
