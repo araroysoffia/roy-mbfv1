@@ -81,11 +81,11 @@ class about:
 			print("+"+"~"*40+"+")
 	def tentang_sc(self):
 		print("""
-[*] Author : Aap Afandi
-[*] Github : https://github.com/KangPacman
-[*] Facebook : https://m.facebook.com/Kang.Pacman
-[*] WhatsApp : +6283805812588
-[*] Script Name : mbf-fb
+[*] Author : Roy Octa Firdaus
+[*] Github : Privasi
+[*] Facebook : https://m.facebook.com/JbFbOld
+[*] WhatsApp : +6281318306972
+[*] Script Name : roy-mbfv1
 [*] Version : 1.1
 
 [!] Jika Menemukan Bug Atau Error Di Script Silahkan Update/Laporkan Ke WhatsApp/Facebook Saya:)
