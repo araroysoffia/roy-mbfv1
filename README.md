@@ -1,6 +1,6 @@
 ## Metode Login Termux
 ````php
-Token FB
+Cookies FB
 ````
 # Sandi Bawaan
 ````php
