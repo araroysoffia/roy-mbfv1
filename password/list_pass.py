@@ -1,7 +1,7 @@
 # Silahkan Jika Ingin Mengubah Listpass Nya
 # Jika Ingin Mengubah pw_tambahan Harap Gunakan Pemisah Menggunakan |
 pw_tambahan="""
-bismillah|sayang|bangsat|anjing|kontol
+bismillah|sayang
 """.strip().split("|")
 ngntd=((())>(()))+((())>(()))
 def awok(ngentod):
