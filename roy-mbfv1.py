@@ -40,9 +40,9 @@ def hasil(ngocok,ismylife):
 yeahh=random.choice(["RONI WIJAYA","RONI WIJAYA"])
 def logo():
 	os.system("clear")
-	print(f"""          ╦═╗╔═╗╦ ╦   ╔╦╗╔╗ ╔═╗╦  ╦
-╠╦╝║ ║╚╦╝───║║║╠╩╗╠╣ ╚╗╔╝
-╩╚═╚═╝ ╩    ╩ ╩╚═╝╚   ╚╝ 
+	print(f""" ╦═╗╔═╗╦ ╦   ╔╦╗╔╗ ╔═╗╦  ╦
+ ╠╦╝║ ║╚╦╝───║║║╠╩╗╠╣ ╚╗╔╝
+ ╩╚═╚═╝ ╩    ╩ ╩╚═╝╚   ╚╝ 
     -=[ Create By {yeahh} ]=-""")
 class about:
 	def __init__(self,url):
@@ -418,7 +418,7 @@ class ngentod:
 			except(req.exceptions.ConnectionError,req.exceptions.ChunkedEncodingError,req.exceptions.ReadTimeout):
 				exit("[!] Kesalahan Pada Koneksi")
 			except req.exceptions.MissingSchema:
-				print(f"[!] Why {memek} Mikir Dong Tolol, Masukin Url Postingan Yang Bener Ngentod");waktu(3);self.menu()
+				print(f"[!] Why {memek} Maaf Salah, Masukin Url Postingan Yang Bener");waktu(3);self.menu()
 		elif pilih in["9","09"]:
 			try:
 				ajg=req.get(f"{self.url}/friends/center/suggestions",cookies=kueh).text
@@ -588,7 +588,7 @@ class ngentod:
 			#print("[4] Metode graph.facebook (Mode Crack Cepat)")
 			self.ngontol()
 		else:
-			print("[!] Isi Yang Bener Ajg");self.askk()
+			print("[!] Isi dengan benar");self.askk()
 	def crackapi(self,user,ox):
 		global ok,cp,cot
 		for pw in ox:
@@ -742,9 +742,9 @@ class asup:
 		try:
 			cek=req.get(f"{self.url}/profile.php?v=info",cookies=zxss(self.cok)).text
 			if "mbasic_logout_button" in cek:
-				print("\n\n[*] Hai, Welcome "+re.findall("\<title\>(.*?)<\/title\>",cek)[0]+" Ngentod:v")
+				print("\n\n[*] Hai, Welcome "+re.findall("\<title\>(.*?)<\/title\>",cek)[0]+" Selamat Datang:v")
 				waktu(1)
-				print("[!] Mohon Tunggu Sebentar Ngentod:v")
+				print("[!] Mohon Tunggu Sebentar :v")
 				open("lo_ngentod/cookie","w").write(self.cok)
 				from kentod import aap_afandi,informasi
 				if "Laporkan Masalah" in cek:
